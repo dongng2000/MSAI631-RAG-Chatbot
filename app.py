@@ -1,8 +1,33 @@
+from dotenv import load_dotenv
+load_dotenv()
+import os
 import gradio as gr
-from sentence_transformers import SentenceTransformer
-from transformers import pipeline
-from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
+
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
+
+from openai import OpenAI
+
+# =====================================================
+# AZURE OPENAI CONFIGURATION
+# =====================================================
+
+endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
+api_key = os.getenv("AZURE_OPENAI_KEY")
+
+if not endpoint:
+    raise ValueError("AZURE_OPENAI_ENDPOINT is not configured")
+
+if not api_key:
+    raise ValueError("AZURE_OPENAI_KEY is not configured")
+
+client = OpenAI(
+    base_url=f"{endpoint}/openai/v1",
+    api_key=api_key
+)
+
+deployment_name = "Phi-4-mini-instruct"
 
 # =====================================================
 # KNOWLEDGE BASE
@@ -31,19 +56,10 @@ embedding_model = SentenceTransformer(
 
 doc_embeddings = embedding_model.encode(documents)
 
-# =====================================================
-# LOAD LLM
-# =====================================================
-
-print("Loading TinyLlama...")
-
-generator = pipeline(
-    "text-generation",
-    model="TinyLlama/TinyLlama-1.1B-Chat-v1.0"
-)
+print("Embedding model loaded.")
 
 # =====================================================
-# CHAT FUNCTION
+# CHATBOT FUNCTION
 # =====================================================
 
 def chatbot_response(message, history):
@@ -51,29 +67,32 @@ def chatbot_response(message, history):
     if not message.strip():
         return "Please enter a question."
 
-    # Semantic Search
-    question_embedding = embedding_model.encode([message])
+    try:
 
-    similarities = cosine_similarity(
-        question_embedding,
-        doc_embeddings
-    )[0]
+        # Semantic Search
+        question_embedding = embedding_model.encode([message])
 
-    best_index = np.argmax(similarities)
-    best_score = similarities[best_index]
+        similarities = cosine_similarity(
+            question_embedding,
+            doc_embeddings
+        )[0]
 
-    THRESHOLD = 0.50
+        best_index = np.argmax(similarities)
+        best_score = similarities[best_index]
 
-    # =================================================
-    # FALLBACK
-    # =================================================
+        THRESHOLD = 0.50
 
-    if best_score < THRESHOLD:
+        # =============================================
+        # FALLBACK
+        # =============================================
 
-        return """
+        if best_score < THRESHOLD:
+
+            return """
 I couldn't find information about that topic.
 
 Try asking:
+
 • What is Human-Computer Interaction (HCI)?
 • What is user-centered design?
 • What are usability heuristics?
@@ -84,45 +103,53 @@ Try asking:
 • What are the benefits of AI chatbots?
 """
 
-    # =================================================
-    # RETRIEVE CONTEXT
-    # =================================================
+        # =============================================
+        # RETRIEVE CONTEXT
+        # =============================================
 
-    retrieved_text = documents[best_index]
+        context = documents[best_index]
 
-    prompt = f"""
-You are an Academic Assistant Chatbot.
-
+        prompt = f"""
 Use ONLY the provided context to answer.
 
-Keep your response concise, clear, and suitable for a college student.
-
 Context:
-{retrieved_text}
+{context}
 
 Question:
 {message}
-
-Answer:
 """
 
-    response = generator(
-        prompt,
-        max_new_tokens=75,
-        do_sample=False
-    )
+        response = client.chat.completions.create(
+            model=deployment_name,
+            messages=[
+                {
+                    "role": "system",
+                    "content": """
+You are an Academic Assistant Chatbot.
 
-    generated_text = response[0]["generated_text"]
+Answer using only the provided context.
 
-    answer = generated_text.split("Answer:")[-1]
+Keep responses concise, accurate, and suitable for college students.
+"""
+                },
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ],
+            temperature=0.2,
+            max_tokens=200
+        )
 
-    if "Context:" in answer:
-        answer = answer.split("Context:")[0]
+        return response.choices[0].message.content
 
-    if "Question:" in answer:
-        answer = answer.split("Question:")[0]
+    except Exception as e:
 
-    return answer.strip()
+        return f"""
+Azure Error:
+
+{str(e)}
+"""
 
 # =====================================================
 # EXAMPLE QUESTIONS
@@ -145,15 +172,22 @@ examples = [
 
 demo = gr.ChatInterface(
     fn=chatbot_response,
-
-    title="🎓 Academic Assistant Chatbot",
-
+    title="🎓 Academic Assistant Chatbot (Azure Phi-4)",
     description="""
-Ask questions about: Human-Computer Interaction (HCI), User-Centered Design, Usability Heuristics, Conversational Agents, Artificial Intelligence, Retrieval-Augmented Generation (RAG)
-This chatbot demonstrates a Retrieval-Augmented Generation (RAG) architecture
-using semantic search and a large language model.
-""",
+Ask questions about:
 
+• Human-Computer Interaction (HCI)
+• User-Centered Design
+• Usability Heuristics
+• Conversational Agents
+• Artificial Intelligence
+• Retrieval-Augmented Generation (RAG)
+
+This chatbot uses:
+- Semantic Search
+- Retrieval-Augmented Generation (RAG)
+- Microsoft Azure Phi-4 Mini
+""",
     examples=examples
 )
 
@@ -161,4 +195,5 @@ using semantic search and a large language model.
 # LAUNCH
 # =====================================================
 
-demo.launch()
+if __name__ == "__main__":
+    demo.launch()
