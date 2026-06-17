@@ -3,3 +3,19 @@ Machine learning is a branch of artificial intelligence that enables systems to 
 Neural networks are computational models inspired by the structure of the human brain.
 
 Artificial intelligence is the simulation of human intelligence by machines.
+
+Human-Computer Interaction (HCI) studies how people interact with computer systems and how technology can be designed to be useful, usable, and accessible.
+
+User-centered design is a design approach that focuses on user needs, goals, and feedback throughout the development process.
+
+Usability heuristics are general interface design principles developed by Jakob Nielsen to improve usability and user experience.
+
+Conversational agents are software systems that communicate with users through natural language using text or speech.
+
+Retrieval-Augmented Generation (RAG) combines information retrieval with large language models to improve the accuracy and relevance of generated responses.
+
+Semantic search uses embeddings and similarity matching to retrieve information based on meaning rather than exact keyword matches.
+
+Artificial intelligence is the simulation of human intelligence by machines that can learn, reason, and make decisions.
+
+AI chatbots can improve user support, automate responses, provide information, and enhance user engagement.

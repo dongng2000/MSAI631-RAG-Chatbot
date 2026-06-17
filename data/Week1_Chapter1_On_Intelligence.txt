@@ -1,0 +1,258 @@
+Chapter 1: On Intelligence
+
+Source: Designing Human-Centric AI Experiences by Akshay Kore
+
+====================================================
+OVERVIEW
+========
+
+This chapter introduces the concept of intelligence and explains how Artificial Intelligence (AI) can be understood through the lens of rational agents. Intelligence is not limited to humans and can exist in animals, humans, and machines. The chapter emphasizes that AI should be viewed as systems that make rational decisions under uncertainty while pursuing goals.
+
+====================================================
+KEY CONCEPTS
+============
+
+Intelligence
+
+* Intelligence is the ability to achieve complex goals.
+* Intelligence is not limited to humans.
+* Animals, humans, and machines can all demonstrate intelligent behavior.
+* Intelligence is best understood as goal-directed behavior.
+
+Artificial Intelligence (AI)
+
+AI can be defined in four different ways:
+
+1. Thinking Humanly
+
+   * Mimicking how humans think.
+   * Based on cognitive models.
+
+2. Thinking Rationally
+
+   * Using logic and formal reasoning.
+   * Rooted in philosophy and mathematics.
+
+3. Acting Humanly
+
+   * Behaving like humans.
+   * Associated with the Turing Test.
+
+4. Acting Rationally
+
+   * Making the best possible decisions under uncertainty.
+   * This is the primary definition adopted in the textbook.
+
+Definition:
+Artificial Intelligence is the study and development of rational agents that act to achieve goals under conditions of uncertainty.
+
+====================================================
+RATIONAL AGENTS
+===============
+
+An agent is anything that can perceive its environment and take actions.
+
+Characteristics of a Rational Agent:
+
+* Perceives the environment
+* Processes information
+* Makes decisions
+* Takes actions
+* Pursues goals
+
+Real-World Constraints:
+
+* Limited information
+* Limited computational resources
+* Uncertainty about outcomes
+
+Bounded Rationality
+
+Bounded rationality recognizes that intelligent systems cannot have perfect knowledge or unlimited computing power. Rational agents must make the best possible decisions using available information and resources.
+
+====================================================
+SUBSTRATE INDEPENDENCE
+======================
+
+Substrate independence is the idea that intelligence is independent of the physical medium in which it exists.
+
+Examples:
+
+* Human brain (biological)
+* Computer systems (silicon-based)
+
+Key Idea:
+
+Intelligence is an abstract capability that can exist in different forms and platforms.
+
+====================================================
+FOUNDATIONS OF AI
+=================
+
+Artificial Intelligence draws knowledge from multiple disciplines.
+
+Philosophy
+
+* Logic
+* Reasoning
+* Ethics
+
+Mathematics
+
+* Probability
+* Statistics
+* Computation
+
+Economics
+
+* Decision-making
+* Utility theory
+
+Neuroscience
+
+* Brain function
+* Learning processes
+
+Psychology
+
+* Human cognition
+* Behavior
+
+Computer Engineering
+
+* Hardware
+* Computational systems
+
+Linguistics
+
+* Language understanding
+* Communication
+
+Business
+
+* Value creation
+* Organizational applications
+
+Key Idea:
+
+AI is an interdisciplinary field that combines knowledge from many domains.
+
+====================================================
+NARROW AI
+=========
+
+Most AI systems used today are examples of Narrow AI.
+
+Characteristics:
+
+* Designed for specific tasks
+* Limited scope
+* High performance within a specialized domain
+
+Examples:
+
+* Speech recognition
+* Face detection
+* Recommendation systems
+* Autonomous driving features
+* Virtual assistants
+
+Important:
+
+Narrow AI is not Artificial General Intelligence (AGI).
+
+====================================================
+APPROACHES TO BUILDING AI
+=========================
+
+Rules-Based Systems
+
+Characteristics:
+
+* Explicit instructions
+* Human-defined rules
+* Predictable behavior
+
+Example:
+
+IF obstacle detected THEN turn left
+
+Machine Learning Systems
+
+Characteristics:
+
+* Learn from examples
+* Learn patterns from data
+* Improve through training
+
+Example:
+
+Training a model using thousands of images to recognize faces.
+
+Key Shift in Modern AI:
+
+From programming rules to training models using data.
+
+====================================================
+AI AS THE NEW ELECTRICITY
+=========================
+
+AI is increasingly becoming embedded in everyday systems.
+
+Characteristics:
+
+* Invisible to users
+* Integrated into applications
+* Widely available across industries
+
+Comparison:
+
+Just as electricity became a foundational technology, AI is becoming a foundational capability embedded within modern systems.
+
+====================================================
+HUMAN-CENTERED AI
+=================
+
+Technical performance alone is not sufficient.
+
+AI systems must be designed to benefit people.
+
+Key Challenges:
+
+Trust
+
+* Users must have confidence in AI outputs.
+
+Explainability
+
+* Decisions should be understandable.
+
+Control
+
+* Humans should maintain appropriate oversight.
+
+Ethics
+
+* AI should avoid harmful outcomes and bias.
+
+Key Principle:
+
+Human-centered AI places people, values, and societal impacts at the center of design.
+
+====================================================
+EXAM-READY TAKEAWAYS
+====================
+
+* Intelligence is the ability to achieve complex goals.
+* AI is best understood as rational agents acting under uncertainty.
+* Rational agents perceive, decide, and act toward goals.
+* Intelligence is substrate-independent.
+* Most real-world AI systems are examples of Narrow AI.
+* Modern AI relies heavily on machine learning.
+* Human-centered AI emphasizes trust, explainability, control, and ethics.
+
+====================================================
+REFLECTION
+==========
+
+This chapter demonstrates that AI is more than algorithms and technology. AI systems are goal-oriented agents that operate under uncertainty and limited information. The concept of rational agents provides a practical framework for understanding intelligent behavior. The transition from rules-based systems to machine learning highlights how modern AI is developed. Most importantly, the chapter emphasizes that successful AI systems must be human-centered, trustworthy, explainable, and ethically designed.
