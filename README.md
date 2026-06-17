@@ -35,17 +35,25 @@ The chatbot uses:
 ## Architecture
 
 User
+
 ↓
+
 Gradio Interface
+
 ↓
-Sentence Transformer Embeddings
-↓
+
 Semantic Search
+
 ↓
-Retrieve Context
+
+Retrieve Relevant Context
+
 ↓
+
 Microsoft Phi-4-mini-instruct (Azure AI Foundry)
+
 ↓
+
 Response
 
 ## Run Locally
@@ -54,3 +62,12 @@ Response
 pip install -r requirements.txt
 python app.py
 ```
+
+## Azure Configuration
+
+Configure the following Hugging Face Secrets:
+
+* AZURE_OPENAI_ENDPOINT
+* AZURE_OPENAI_KEY
+
+The chatbot connects to Microsoft Azure AI Foundry and uses the Phi-4-mini-instruct model for response generation.
