@@ -1,0 +1,275 @@
+Chapter 7: AI Ethics
+
+Source: Designing Human-Centric AI Experiences by Akshay Kore
+
+====================================================
+OVERVIEW
+========
+
+This chapter explores the importance of AI ethics in designing trustworthy, safe, and beneficial AI systems. As AI increasingly influences decisions affecting individuals and society, ethical considerations must be integrated throughout the design and development process. Ethical AI requires attention to trust, explainability, transparency, fairness, privacy, and accountability.
+
+====================================================
+WHAT IS AI ETHICS?
+==================
+
+AI Ethics
+
+AI ethics is a system of principles, values, and techniques intended to guide the responsible development and use of artificial intelligence.
+
+Purpose of AI Ethics:
+
+* Promote responsible AI development
+* Protect users and society
+* Encourage trustworthy AI systems
+* Reduce harmful outcomes
+* Support fairness and accountability
+
+Key Idea:
+
+AI systems eventually affect people, even when designed for technical applications. Therefore, ethical considerations must be included in AI design.
+
+====================================================
+ETHICS-BASED DESIGN
+===================
+
+Ethical design integrates ethical discussions throughout the product lifecycle.
+
+Challenges:
+
+* Business goals may prioritize growth and profits.
+* Ethical concerns are sometimes viewed as obstacles.
+* Rapid development can overlook unintended consequences.
+
+Recommendations:
+
+* Encourage discussion of ethical concerns.
+* Reward team members who identify ethical risks.
+* Conduct ethics reviews during project milestones.
+* Evaluate risks during discovery, prototyping, release, and revision phases.
+
+Key Principle:
+
+An AI system that is not trustworthy is not useful.
+
+====================================================
+CORE GOALS OF ETHICAL AI
+========================
+
+Ethical AI focuses on three major objectives:
+
+1. Trustworthy AI
+2. Safe AI
+3. Beneficial AI
+
+These objectives help ensure that AI systems serve users and society responsibly.
+
+====================================================
+TRUSTWORTHY AI
+==============
+
+Trust is essential for AI adoption.
+
+Users are more likely to use AI systems when they trust:
+
+* The recommendations
+* The decisions
+* The accuracy
+* The fairness
+
+Factors that support trust:
+
+* Explainability
+* Fairness
+* Reliability
+* Inclusiveness
+* Privacy protection
+
+Key Idea:
+
+Trust extends beyond the interface and includes reputation, communication, and organizational behavior.
+
+====================================================
+EXPLAINABLE AI
+==============
+
+Explainable AI focuses on helping humans understand how AI systems make decisions.
+
+Also Known As:
+
+* Transparent AI
+* Interpretable Machine Learning
+
+Benefits:
+
+* Improves trust
+* Supports accountability
+* Enables informed decision-making
+* Helps identify errors
+
+Key Principle:
+
+People are more likely to trust decisions they can understand.
+
+====================================================
+BLACK BOX MODELS
+================
+
+A black box model is an AI system whose internal decision-making process is difficult or impossible for humans to understand.
+
+Characteristics:
+
+* Inputs are visible
+* Outputs are visible
+* Internal reasoning is unclear
+
+Examples:
+
+* Deep neural networks
+* Large machine learning models
+
+Risks:
+
+* Difficult to explain decisions
+* Limited accountability
+* Potential ethical concerns
+
+High-Stakes Applications:
+
+* Criminal sentencing
+* Medical diagnosis
+* Financial decisions
+
+In these situations, explainability becomes especially important.
+
+====================================================
+TRANSPARENCY
+============
+
+Transparency helps users understand how AI systems operate.
+
+Transparency Practices:
+
+* Explain how the AI works
+* Explain strengths and limitations
+* Explain training data sources
+* Provide understandable documentation
+
+Benefits:
+
+* Builds trust
+* Supports informed use
+* Creates realistic expectations
+
+Key Idea:
+
+Transparency helps users form accurate mental models of AI behavior.
+
+====================================================
+BIAS IN AI
+==========
+
+Algorithmic Bias
+
+Algorithmic bias occurs when AI systems produce unfair or discriminatory outcomes.
+
+Examples:
+
+* Hiring decisions
+* College admissions
+* Loan approvals
+* Criminal sentencing
+* Insurance decisions
+
+Causes:
+
+* Biased training data
+* Historical inequalities
+* Incomplete datasets
+* Unrepresentative samples
+
+Important Insight:
+
+Large datasets do not automatically eliminate bias. In some cases, larger datasets may reinforce existing societal biases.
+
+====================================================
+FAIRNESS
+========
+
+Fair AI systems should:
+
+* Treat individuals equitably
+* Avoid discrimination
+* Avoid reinforcing stereotypes
+* Minimize harm
+
+Key Principle:
+
+AI should not place certain groups at a disadvantage.
+
+====================================================
+PRIVACY
+=======
+
+AI systems frequently rely on user data.
+
+Privacy Considerations:
+
+* Data collection
+* Data storage
+* Data sharing
+* User consent
+
+Design Goals:
+
+* Protect personal information
+* Limit unnecessary data collection
+* Respect user expectations
+
+Key Idea:
+
+Privacy is a critical component of trustworthy AI.
+
+====================================================
+ETHICAL RESPONSIBILITY
+======================
+
+Ethical responsibility belongs to everyone involved in AI development.
+
+Stakeholders:
+
+* Designers
+* Developers
+* Product Managers
+* Researchers
+* Business Leaders
+
+Responsibilities:
+
+* Identify risks
+* Discuss ethical concerns
+* Consider unintended consequences
+* Protect users and society
+
+Key Principle:
+
+Ethics should be integrated into the development process rather than treated as an afterthought.
+
+====================================================
+EXAM-READY TAKEAWAYS
+====================
+
+* AI ethics guides the responsible development and use of AI.
+* Trustworthy AI must be explainable, fair, reliable, and privacy-conscious.
+* Explainable AI helps humans understand AI decisions.
+* Black box models can create challenges for accountability.
+* Transparency helps users understand system behavior.
+* Algorithmic bias often originates from biased training data.
+* Fairness requires avoiding discrimination and harmful stereotypes.
+* Privacy is essential for building trustworthy AI systems.
+* Ethical responsibility belongs to the entire AI team.
+
+====================================================
+REFLECTION
+==========
+
+This chapter highlights that successful AI systems require more than technical performance. Ethical considerations such as trust, explainability, transparency, fairness, and privacy directly influence whether users will adopt and rely on AI systems. One of the most important lessons is that AI ethics is a shared responsibility across the entire development team. Ethical AI design requires continuous evaluation of how systems affect individuals and society, ensuring that AI remains beneficial, safe, and trustworthy.

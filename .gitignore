@@ -11,3 +11,7 @@ venv/
 .env
 
 .vscode/
+
+embeddings.pkl
+embeddings.hash
+app_backup.py
