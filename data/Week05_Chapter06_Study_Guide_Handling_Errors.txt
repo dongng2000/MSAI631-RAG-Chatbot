@@ -1,0 +1,412 @@
+Week 5 - Chapter 6 Study Guide: Handling Errors
+
+Chapter 6 is one of the most important readings for conversational agents, chatbots, virtual assistants, and your RAG Academic Assistant project because it focuses on how AI systems should handle mistakes, uncertainty, and failures while maintaining user trust.
+
+Core Concept
+
+The main message of Chapter 6 is:
+
+AI systems are probabilistic and will make mistakes. Effective error handling is essential for maintaining usability, trust, and positive user experiences.
+
+Unlike traditional software, AI systems cannot be expected to be correct 100% of the time.
+
+Therefore:
+
+AI Error
+    ↓
+Clear Explanation
+    ↓
+User Feedback
+    ↓
+Improved System
+Errors Are Inevitable
+
+The chapter repeatedly emphasizes:
+
+AI is not perfect
+AI learns through mistakes
+Users will always find unexpected situations
+Error handling must be part of the design process
+
+Rather than hiding errors, AI systems should acknowledge them and help users recover.
+
+Humble Machines
+
+A key concept:
+
+Humility is a feature.
+
+Users are more forgiving when AI admits limitations.
+
+Good Example:
+
+"I'm not confident enough to answer that question."
+
+Bad Example:
+
+Giving a wrong answer confidently.
+
+Acknowledging uncertainty helps build trust.
+
+Error vs Failure
+
+One of the most likely quiz questions.
+
+Error
+
+An inconvenience.
+
+Example:
+
+Netflix recommends a movie you don't like.
+Failure
+
+System becomes unusable or dangerous.
+
+Example:
+
+Self-driving car crashes.
+
+The chapter states:
+
+Tolerate errors, but not failures.
+
+Sources for Finding Errors
+
+Organizations should continuously monitor:
+
+Customer service tickets
+User interviews
+Social media
+App reviews
+Product metrics
+Surveys
+User feedback
+
+Error discovery is an ongoing process.
+
+Three Major Categories of Errors
+1. System Errors
+
+Caused by the AI itself.
+
+Examples:
+
+Poor training data
+Missing data
+Bad model
+Network issues
+
+Users usually blame the system.
+
+2. User Errors
+
+Caused by user actions.
+
+Examples:
+
+Typos
+Wrong inputs
+Clicking incorrect buttons
+
+Developers often blame users, but the chapter warns against doing so.
+
+3. User-Perceived Errors
+
+Unique to AI systems.
+
+The system thinks it is correct.
+
+The user thinks it is wrong.
+
+Example:
+
+User watches one cooking video.
+
+AI recommends 100 similar cooking videos.
+
+System works as designed, but user expectations are different.
+
+Guidelines for Error Messages
+1. Indicate the Error
+
+Never leave users wondering.
+
+Bad:
+
+Nothing happens.
+
+Good:
+
+"Unable to connect right now."
+
+Users should always know something went wrong.
+
+2. Don't Blame the User
+
+Bad:
+
+"Invalid input."
+
+"Illegal command."
+
+Good:
+
+"We couldn't understand that request. Please try again."
+
+The tone should be constructive and respectful.
+
+3. Optimize for Understanding
+
+Use plain language.
+
+Bad:
+
+Exception Error 420
+
+Good:
+
+Unable to connect to the internet.
+Please try again later.
+
+Human-readable messages improve usability.
+
+Graceful Failure
+
+One of the most important concepts.
+
+When AI fails:
+
+Explain what happened
+Explain why
+Offer next steps
+Help users recover
+
+Example:
+
+I couldn't find information about that topic.
+Try rephrasing your question.
+
+Instead of:
+
+ERROR
+
+Graceful failure protects trust.
+
+Use Errors as Learning Opportunities
+
+Errors can:
+
+Explain system limitations
+Teach users
+Improve AI
+Collect feedback
+
+The chapter recommends treating errors as opportunities rather than problems.
+
+Use Errors to Collect Feedback
+
+When errors occur:
+
+Ask users:
+
+👍 Correct
+
+👎 Incorrect
+
+Examples:
+
+Chatbots
+Search engines
+Recommendation systems
+
+Feedback helps improve future performance.
+
+Disambiguation
+
+When uncertain, offer options.
+
+Example:
+
+User says:
+
+Play "God Is A DJ"
+
+Assistant asks:
+
+Faithless or Pink?
+
+Instead of guessing incorrectly.
+
+Disambiguation reduces user frustration.
+
+Return Control to the User
+
+Sometimes AI should step aside.
+
+Example:
+
+Banking chatbot:
+
+I can't answer this question.
+Would you like to speak with an agent?
+
+This is called:
+
+Human Handoff
+
+One of the best recovery strategies.
+
+Common System Errors
+Data Errors
+Mislabeled Data
+
+Wrong training labels.
+
+Solution:
+
+Collect feedback
+Correct dataset
+Incomplete Data
+
+AI lacks information.
+
+Solution:
+
+Explain limitations
+Ask for feedback
+Missing Data
+
+Question outside training scope.
+
+Solution:
+
+Clarify capabilities
+Explain boundaries
+
+The chapter repeatedly recommends:
+
+Explain what AI can and cannot do.
+
+Relevance Errors
+Low Confidence
+
+AI is unsure.
+
+Example:
+
+Home price prediction during a recession.
+
+Solution:
+
+Explain uncertainty
+Offer alternatives
+Irrelevance
+
+AI provides unrelated answers.
+
+Solution:
+
+Gather explicit feedback
+Allow dismissal of suggestions
+
+Model Errors
+Incorrect Model
+
+Bad algorithm despite good data.
+
+Solution:
+
+User feedback
+Retraining
+Miscalibrated Inputs
+
+Wrong weighting of user preferences.
+
+Example:
+
+User likes one artist.
+
+AI recommends entire genre.
+
+Solution:
+
+Explain recommendations
+Allow correction
+
+User Errors
+Incorrect Input
+
+Typos
+
+Misspellings
+
+Ambiguous queries
+
+Solution:
+
+Autocorrect
+Suggestions
+Clarification
+
+Example:
+
+Did you mean "Italian cuisine" or "Italian language"?
+
+Breaking User Habits
+
+One of the most interesting concepts.
+
+Users build habits.
+
+AI should not suddenly move:
+
+Search boxes
+Back buttons
+Home buttons
+
+Keep familiar controls consistent.
+
+User-Perceived Errors
+Context Errors
+
+AI assumptions don't match user expectations.
+
+Example:
+
+User likes a song.
+
+AI recommends similar genres.
+
+User expected more songs from same artist.
+
+Solution:
+
+Better explanations
+Better feedback options
+
+Failstates
+
+AI cannot answer.
+
+Example:
+
+English-only chatbot receives a Hindi question.
+
+Solution:
+
+Explain limitation
+Clarify capabilities
+Request feedback
+
+Recalibrating Trust
+
+When mistakes happen:
+
+Acknowledge error
+Explain what happened
+Offer recovery
+Request feedback
+Improve system
+
+Trust is rebuilt through transparency and empathy.

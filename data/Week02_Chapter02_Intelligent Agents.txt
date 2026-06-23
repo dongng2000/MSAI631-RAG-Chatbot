@@ -1,0 +1,217 @@
+Chapter 2 – Intelligent Agents (Master Summary)
+1. Core Concept: Rational Agents
+Definition
+
+A rational agent is something that:
+
+Perceives its environment
+Takes actions
+Aims to achieve the best possible outcome
+
+Example:
+
+A goalkeeper blocking a goal
+A chatbot answering questions
+A recommendation system suggesting content
+
+ Key insight: AI is not just reacting. It is making decisions under uncertainty.
+
+2. Agents and Environments
+Agent
+
+Anything that:
+
+Uses sensors to perceive
+Uses actuators to act
+
+Examples:
+
+Human (eyes → hands)
+Robot vacuum (camera → suction)
+AI system (data input → output display)
+Environment
+
+Everything the agent interacts with.
+
+Examples:
+
+Chessboard → structured, predictable
+Real world → complex, uncertain
+Types of Environments
+Simple Environments
+Observable
+Predictable
+Rule-based
+
+Example:
+
+Chess
+Puzzle games
+Complex Environments
+Uncertain
+Dynamic
+Multiple agents
+
+Example:
+
+Healthcare
+Education systems
+Organizations
+
+ Important connection:
+Most real-world AI problems are complex, which is why AI is imperfect.
+
+3. Sensors, Actuators, and Goals
+Sensors
+
+How an agent gathers input:
+
+Camera
+Keyboard
+Microphone
+Actuators
+
+How an agent acts:
+
+Display output
+Physical movement
+Notifications
+Goals
+
+What the agent is trying to achieve:
+
+Clean a room
+Recommend content
+Detect spam
+
+ Design insight:
+AI systems must have clearly defined goals, or behavior becomes unpredictable.
+
+4. Input-Output Model (VERY IMPORTANT)
+Key Idea
+
+AI = mapping input → output
+
+Examples:
+
+Image → label
+Speech → text
+Email → spam/not spam
+
+ Intelligence = pattern recognition
+
+Why This Matters for HCI
+Users provide input (clicks, voice, text)
+AI produces output (recommendations, responses)
+
+ HCI designs the interface between input and output
+
+5. Machine Learning (ML)
+Definition
+
+ML allows systems to:
+
+Learn patterns from data
+Without explicit programming
+3 Key Steps
+Training
+Learn from data
+Testing
+Evaluate accuracy
+Deployment
+Use in real-world
+Types of Learning
+1. Supervised Learning
+Uses labeled data
+Example: spam detection
+2. Unsupervised Learning
+Finds patterns without labels
+Example: clustering users
+3. Reinforcement Learning
+Learns via rewards and penalties
+Example: training a game AI
+Deep Learning
+Uses multi-layer neural networks
+Handles complex tasks:
+Image recognition
+Language generation
+Autonomous driving
+6. Feedback Loops and Rewards
+Feedback Loop
+
+AI improves by:
+
+Making predictions
+Receiving feedback
+Adjusting
+Reward Function
+Defines success
+Guides learning
+
+ Critical insight:
+You get the behavior you reward
+
+7. Risks of Poorly Designed AI
+Problem: Misaligned Goals
+
+If goals are wrong:
+
+AI optimizes the wrong thing
+Leads to unintended consequences
+
+Example:
+
+Social media optimizing engagement → addiction, bias
+Value Alignment Problem
+
+AI must:
+
+Align with human values
+Handle uncertain preferences
+
+ This is one of the hardest problems in AI.
+
+8. Probabilistic Nature of AI
+Key Idea
+
+AI is not 100% certain
+
+Outputs are probabilities
+Errors always exist
+
+Example:
+
+Speech recognition confusion
+Image misclassification
+Why This Matters
+AI decisions are not deterministic
+Systems must handle:
+Uncertainty
+Errors
+Ambiguity
+
+ This directly impacts HCI:
+
+Interfaces must build trust and transparency
+9. How This Connects to Week 2 Objectives
+Objective 1: AI and HCI Interaction
+AI = decision-making engine
+HCI = interaction layer
+Agents connect both
+Objective 2: Multimodal Interfaces
+Sensors = input methods
+Actuators = output methods
+Enables:
+Voice
+Touch
+Visual interaction
+Objective 3: Design Thinking
+Defines:
+Goals
+Rewards
+User needs
+
+ Without Design Thinking:
+
+AI may optimize incorrectly
+Users may not trust or use it

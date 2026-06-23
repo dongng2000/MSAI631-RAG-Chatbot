@@ -1,0 +1,198 @@
+WEEK 4 — What This Really Means
+
+This week is about:
+
+Moving from building a chatbot → to designing a GOOD chatbot
+
+Big Idea
+
+Before:
+
+You built a chatbot (technical)
+
+Now:
+
+You design how users interact with it (experience)
+
+This is HCI + AI combined
+
+Module Objectives (Simplified)
+1. Create a Design for a Conversational Agent
+
+You should be able to answer:
+
+Who is the user?
+What do they want?
+How should the bot respond?
+Example
+
+Instead of:
+
+Bot: “I sense a positive tone”
+
+Design thinking:
+
+Bot: “That’s great to hear! How can I help you today?”
+
+More natural, more human
+
+2. Evaluate User-Centered Design (UCD)
+
+Focus on:
+
+User needs first
+Not system logic
+Example
+
+Bad:
+
+“Enter valid input”
+
+Good:
+
+“I didn’t catch that. Can you try again?”
+
+Your chatbot should:
+
+Be easy to use
+Be clear
+Be helpful
+3. Evaluate Usability Heuristics
+
+These come from Nielsen Norman Group
+
+Most Important Heuristics
+Visibility of system status
+
+Always tell user what’s happening
+
+Example:
+
+“Processing your request…”
+
+Error prevention
+
+Avoid confusion
+
+Example:
+
+Suggest options instead of guessing
+
+Consistency
+
+Same tone, same style
+
+User control
+
+Allow user to:
+
+restart
+go back
+Recognition over recall
+
+Don’t make users remember commands
+
+Example:
+
+“Type ‘help’ to see options”
+
+4. Apply UCD in Projects
+
+This is where your chatbot evolves
+
+BEFORE (Assignment 1)
+Echo responses
+Basic rules
+AFTER (Week 4 mindset)
+Personalized responses
+Clear guidance
+Friendly tone
+Error handling
+Example Upgrade
+
+Old:
+
+“You said: hello”
+
+New:
+
+“Hi there!  How can I assist you today?”
+
+5. How AI Changes Design (VERY IMPORTANT)
+
+This is the core of Week 4
+
+Traditional Design
+Fixed responses
+Predictable
+AI Design
+Dynamic
+Context-aware
+Less predictable
+Example
+
+User says:
+
+“I’m stressed”
+
+Traditional:
+
+“Unknown command”
+
+AI:
+
+“I’m sorry you’re feeling stressed. Want help with something?”
+
+AI introduces:
+
+Emotion awareness
+Flexibility
+Uncertainty
+Personas (Important Concept)
+
+A persona = fake user profile
+
+Example Persona
+Name: Alex
+Role: College student
+Goal: Get quick answers
+Behavior: impatient
+
+Design chatbot for Alex:
+
+Fast responses
+Simple language
+Clear options
+How This Connects to YOU
+
+Your chatbot right now:
+
+✔ Works technically
+✔ Uses AI
+
+Week 4 asks:
+
+Is it user-friendly?
+Is it clear?
+Is it helpful?
+
+What You’ll Likely Do Next
+
+Your next assignment will probably ask you to:
+
+Design chatbot interaction flow
+Create personas
+Apply usability principles
+Improve chatbot responses
+Simple Mental Model
+
+Think:
+
+Code → Functionality → Experience → Design
+
+You already have:
+✔ Code
+✔ Functionality
+
+Now you add:
+Experience + Design

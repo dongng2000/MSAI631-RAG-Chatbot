@@ -1,0 +1,243 @@
+Week 3 – Chapter 9: Understanding AI Terminology (Master Guide)
+1. Big Idea of the Chapter
+Core Concept
+
+AI teams must:
+ Match the right AI technique to the right problem
+
+Key Insight
+Designers, PMs, and engineers speak different “languages”
+Understanding AI terminology improves collaboration
+
+ This is critical for:
+
+HCI
+AI product design
+Real-world projects
+2. Two Main Approaches to AI
+1. Rule-Based AI
+Follows predefined instructions
+Deterministic
+
+Example:
+
+If obstacle → turn left
+2. Example-Based AI (Machine Learning)
+Learns from data
+Not explicitly programmed
+
+Example:
+
+Show many images → learn patterns
+Key Insight
+
+Most real systems:
+ Combine BOTH approaches
+
+3. Main AI Techniques (VERY IMPORTANT)
+1. Supervised Learning
+Uses labeled data
+Input → known output
+
+Examples:
+
+Spam detection
+Face recognition
+
+ Most common (about 95% of applications)
+
+2. Unsupervised Learning
+Uses unlabeled data
+Finds patterns
+
+Examples:
+
+Customer segmentation
+Clustering
+3. Reinforcement Learning
+Learns through trial and error
+Uses rewards and penalties
+
+Examples:
+
+Self-driving cars
+Game AI
+4. Deep Learning / Neural Networks
+Multi-layer learning
+Handles complex problems
+
+Examples:
+
+Image recognition
+Voice assistants
+5. Transfer Learning
+Reuses knowledge from another model
+
+ Saves time and data
+
+6. GANs (Generative AI)
+Generates new content
+Two models compete
+
+Examples:
+
+Deepfakes
+AI-generated images
+7. Knowledge Graphs
+Connects entities and relationships
+
+Example:
+
+Google search results panel
+4. AI Metrics (VERY IMPORTANT FOR EXAMS)
+
+AI is:
+ NOT perfect
+ Must be evaluated
+
+Confusion Matrix
+
+Four outcomes:
+
+True Positive
+True Negative
+False Positive
+False Negative
+1. Accuracy
+% correct predictions
+
+ Problem:
+Not always reliable
+
+2. Precision
+How many predicted positives are correct
+
+ High precision = fewer wrong results
+
+3. Recall
+How many actual positives are found
+
+ High recall = more coverage
+
+🔥 Key Tradeoff
+
+You cannot maximize both:
+
+Precision ↑ → Recall ↓
+Recall ↑ → Precision ↓
+
+ Must choose based on context
+
+5. AI Capabilities (SUPER IMPORTANT)
+
+These are what AI actually does.
+
+1. Computer Vision (CV)
+Understand images/videos
+
+Examples:
+
+Face recognition
+Object detection
+2. Natural Language Processing (NLP)
+Understand text
+
+Examples:
+
+ChatGPT
+Chatbots
+Translation
+3. Speech & Audio Processing
+Speech ↔ text
+
+Examples:
+
+Siri
+Alexa
+4. Robotics (Perception + Motion)
+Navigate environment
+
+Examples:
+
+Self-driving cars
+Drones
+5. Prediction
+Fill missing information
+
+Examples:
+
+Price prediction
+Next word suggestions
+6. Ranking
+Order results
+
+Examples:
+
+Google search
+7. Classification
+Categorize data
+
+Examples:
+
+Spam vs not spam
+8. Recommendation
+Suggest content
+
+Examples:
+
+Netflix
+Amazon
+9. Pattern Recognition
+Detect patterns/anomalies
+
+Examples:
+
+Fraud detection
+10. Knowledge Representation
+Organize information
+6. Key Insights (Very Important)
+1. AI Is Probabilistic
+Not always correct
+Must design for errors
+2. “Useful > Perfect”
+
+AI doesn’t need to be perfect, just useful
+
+3. Tradeoffs Matter
+Precision vs recall
+Speed vs accuracy
+4. AI Systems Combine Capabilities
+
+Example:
+Voice assistant:
+
+Speech → text
+NLP → understand
+Prediction → respond
+Speech → output
+7. Connection to Week 1 & 2
+Week 1
+AI = rational agents
+HCI = usability
+Week 2
+Design Thinking → problem-first
+HCD → trust and ethics
+Chatbots → NLP
+Week 3 (This Chapter)
+
+ “How AI actually works under the hood”
+
+8. Key Takeaways (Exam Ready)
+AI = rule-based + example-based
+ML = core of modern AI
+Supervised learning is most common
+Precision vs recall tradeoff is critical
+AI capabilities drive real-world applications
+AI systems are useful, not perfect
+Most systems combine multiple techniques
+🔥 Most Important Insight
+
+ Good AI design is NOT about choosing the most advanced model
+
+ It is about:
+Choosing the right technique for the right problem

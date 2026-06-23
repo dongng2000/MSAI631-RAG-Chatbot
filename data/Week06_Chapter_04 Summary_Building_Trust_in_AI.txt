@@ -1,0 +1,272 @@
+Week 6 - Chapter 4 Summary: Building Trust in AI
+
+This chapter focuses on one of the most important topics in Human-Computer Interaction (HCI) and AI design:
+
+People will only use AI effectively if they trust it.
+
+The chapter explains how designers can build, maintain, and calibrate trust between users and AI systems through explainability, transparency, user control, and thoughtful interface design.
+
+Key Concept: Trust in AI
+
+Trust is the willingness to take a risk because you expect a beneficial outcome. Just as people trust doctors, banks, or businesses, users must trust AI systems before they rely on them. AI systems are not perfect because they are probabilistic and sometimes make mistakes. Therefore, designers must create experiences that help users understand when to trust AI and when to use their own judgment.
+
+The chapter identifies four major components of trust:
+
+1. Competence
+
+The AI must successfully perform its intended task and provide meaningful value.
+
+Example:
+
+Google Search generally returns useful information.
+2. Reliability
+
+The AI should perform consistently over time.
+
+Example:
+
+iPhone features work predictably and consistently.
+3. Predictability
+
+Users should understand how the system behaves.
+
+Example:
+
+Spreadsheet software should not unexpectedly change common functions.
+4. Benevolence
+
+Users must believe the system is acting in their best interest.
+
+Example:
+
+Patagonia encourages customers to repair products instead of buying new ones.
+Trust Calibration
+
+Users can develop either:
+
+Overtrust
+
+Trust exceeds the AI's actual capability.
+
+Example:
+
+Blindly following stock market predictions from an AI.
+Distrust
+
+Trust is lower than the AI's capability.
+
+Example:
+
+Ignoring accurate recommendations because users do not believe the system.
+
+The goal of AI design is proper trust calibration, where user trust matches the system's actual capabilities.
+
+Two Foundations of Trustworthy AI
+
+The chapter emphasizes two essential design principles:
+
+1. Explainability
+
+Users should understand:
+
+What the AI does
+How it works
+Why it made a recommendation
+How accurate it is
+
+Explainability helps users build accurate mental models and trust the system appropriately.
+
+Guidelines for Good Explanations
+Make clear what the system can do
+Explain how well it performs
+Set expectations for adaptation
+Be transparent
+Build cause-and-effect relationships
+Optimize explanations for understanding rather than technical detail
+2. User Control
+
+Users should never be forced to blindly trust AI.
+
+They should be able to:
+
+Edit information
+Correct mistakes
+Ignore recommendations
+Choose among alternatives
+Provide feedback
+Opt out of features
+
+Giving users control increases trust and encourages long-term adoption.
+
+Types of AI Explanations
+
+The chapter introduces several explanation methods.
+
+Data Use Explanations
+
+Explain:
+
+What data is collected
+How data is used
+Privacy implications
+
+Example:
+
+A navigation app explaining that it used calendar appointments, GPS location, and traffic information to recommend a departure time.
+
+Description-Based Explanations
+
+Simple explanations of why a recommendation was made.
+
+Example:
+
+"This recipe was recommended because you like broccoli, mushrooms, and pasta."
+
+These are often more useful than detailed technical explanations.
+
+Confidence-Based Explanations
+
+Show how confident the AI is.
+
+Examples:
+
+High confidence
+Medium confidence
+Low confidence
+
+Instead of:
+
+87.4% confidence
+
+Use:
+
+"We're fairly confident about this recommendation."
+
+This is often easier for users to understand.
+
+Experimentation-Based Explanations
+
+Allow users to learn by trying the system.
+
+Examples:
+
+Demo environments
+Sandboxes
+Interactive onboarding
+
+Users develop trust by observing the AI's behavior directly.
+
+Evaluating AI Explanations
+
+The chapter recommends evaluating explanations through:
+
+Qualitative Methods
+User interviews
+Surveys
+Observation
+Task completion testing
+Quantitative Methods
+Analytics
+Product logs
+Usage metrics
+
+The authors note that qualitative feedback is usually more useful for understanding trust and explainability issues.
+
+User Control Mechanisms
+
+Two major categories are discussed.
+
+Data Control
+
+Users should be able to:
+
+View their data
+Edit their data
+Delete data
+Reset preferences
+Opt out
+
+Transparency and privacy are critical trust-building factors.
+
+Control Over AI Output
+
+Users should be able to:
+
+Choose recommendations
+Ignore recommendations
+Dismiss recommendations
+Correct mistakes
+Provide feedback
+
+Examples include:
+
+Netflix thumbs up/down
+YouTube recommendation feedback
+Spotify song preferences
+Opportunities to Build Trust
+
+Trust should be reinforced throughout the user journey.
+
+Onboarding
+
+Explain:
+
+What the AI does
+What data it uses
+How it learns
+User Interactions
+
+Reinforce expectations and explain recommendations.
+
+Updates
+
+Communicate changes to:
+
+Features
+Privacy policies
+Algorithms
+Settings
+
+Provide transparency and control.
+
+Error States
+
+Use mistakes as opportunities to explain, educate, and rebuild trust.
+
+Personality and Emotion in AI
+
+The chapter discusses whether AI should have personalities.
+
+Examples:
+
+Siri
+Alexa
+Google Assistant
+
+Potential benefits:
+
+More engaging interactions
+Better collaboration
+Improved user comfort
+
+Potential risks:
+
+Users overtrust the AI
+Users reveal sensitive information
+Unrealistic expectations
+Emotional attachment
+Manipulation concerns
+Guidelines for AI Personality Design
+
+If personality is used:
+
+Do not pretend to be human
+Clearly communicate limitations
+Consider cultural differences
+Be inclusive
+Use appropriate tone of voice
+Avoid reinforcing stereotypes
+
+The chapter repeatedly emphasizes:
+
+Users should always know they are interacting with AI.

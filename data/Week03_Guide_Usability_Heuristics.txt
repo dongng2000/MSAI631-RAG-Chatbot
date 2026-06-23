@@ -1,0 +1,142 @@
+Week 3 Guide: Usability Heuristics (HCI Foundation)
+1. What Are Usability Heuristics?
+Definition
+
+Usability heuristics are:
+👉 General design principles used to evaluate user interfaces
+
+They help answer:
+
+Is this system easy to use?
+Can users understand what’s happening?
+Key Insight
+
+These are rules of thumb, not strict rules.
+
+2. Why They Matter (Especially for AI)
+
+Without usability:
+
+Users get confused
+Users make mistakes
+Users don’t trust the system
+
+With AI systems:
+
+Outputs are uncertain
+Decisions need explanation
+
+👉 Heuristics ensure:
+AI systems are understandable and trustworthy
+
+3. The 10 Usability Heuristics (Memorize These)
+1. Visibility of System Status
+System should always show what’s happening
+
+Example:
+
+Loading spinner
+“Processing…” message
+
+👉 Important for AI:
+Show when AI is thinking or generating
+
+2. Match Between System and Real World
+Use familiar language and concepts
+
+Example:
+
+“Cart” instead of “data container”
+
+👉 AI:
+Use natural language, not technical jargon
+
+3. User Control and Freedom
+Users should be able to undo actions
+
+Example:
+
+Undo button
+Cancel option
+
+👉 AI:
+Allow users to edit or correct outputs
+
+4. Consistency and Standards
+Follow common design patterns
+
+Example:
+
+Same icons, layout, behavior
+
+👉 AI:
+Consistent responses and behavior
+
+5. Error Prevention
+Prevent problems before they happen
+
+Example:
+
+Input validation
+
+👉 AI:
+Guide users before errors occur
+
+6. Recognition Rather Than Recall
+Reduce memory load
+
+Example:
+
+Dropdowns instead of typing
+
+👉 AI:
+Show suggestions instead of requiring input
+
+7. Flexibility and Efficiency of Use
+Support both beginners and experts
+
+Example:
+
+Shortcuts
+
+👉 AI:
+Personalization and adaptive interfaces
+
+8. Aesthetic and Minimalist Design
+Avoid unnecessary information
+
+👉 AI:
+Don’t overwhelm users with too many outputs
+
+9. Help Users Recognize, Diagnose, and Recover from Errors
+Clear error messages
+
+👉 AI:
+Explain why something went wrong
+
+10. Help and Documentation
+Provide guidance when needed
+
+👉 AI:
+Explain features and limitations
+
+4. How This Connects to AI (VERY IMPORTANT)
+
+AI systems often violate these if poorly designed:
+
+No explanation → breaks visibility
+Confusing output → breaks real-world match
+No correction → breaks user control
+
+👉 Good AI systems:
+
+Show reasoning
+Allow feedback
+Guide users
+5. Real-World Example (ChatGPT)
+Good
+Natural language (Heuristic 2)
+Suggestions (Heuristic 6)
+Iteration (Heuristic 3)
+Could Improve
+Sometimes unclear reasoning (Heuristic 1, 9)

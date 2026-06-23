@@ -1,0 +1,191 @@
+Week 3 – Chapter 8: Prototyping AI Products (Master Guide)
+1. Core Idea: What Is a Prototype?
+Definition
+
+A prototype is:
+
+Any artifact that turns an idea into something users can experience and give feedback on
+
+Key Insight
+It does NOT have to be complex
+It can be:
+Sketch
+Mockup
+Slideshow
+Role-play
+Basic working system
+
+ Prototype early, not perfectly
+
+2. Why Prototyping Matters (Very Important)
+
+AI systems are:
+
+Expensive
+Time-consuming
+Risky
+Benefits of Prototyping
+Test ideas quickly
+Save time and money
+Get early feedback
+Align teams
+Identify what NOT to build
+
+ Key takeaway:
+Prototyping reduces risk before full development
+
+3. Unique Challenges in AI Prototyping
+
+AI is harder to prototype than regular software because:
+
+Personalization depends on real data
+AI outputs are uncertain
+Explainability is difficult
+Full ML systems are expensive to build
+
+ This is why low-cost testing methods are critical
+
+4. What Should You Test in AI Prototypes?
+
+You should define the goal first.
+
+4 Key Objectives:
+1. Desirability
+Do users want this?
+Will they use or pay for it?
+2. Usability
+Can users use it easily?
+3. Explainability
+Do users understand AI decisions?
+4. Relevance
+Are AI outputs useful and accurate?
+
+ These 4 = core evaluation framework
+
+5. Types of AI Prototypes
+A. Desirability Prototypes
+
+Test:
+
+Interest
+Value
+Methods:
+Fake ads
+Popups
+Surveys
+Mockups
+
+ Also called:
+“Smoke test” or “Painted door test”
+
+B. Usability Prototypes
+
+Test:
+
+Interaction
+User experience
+Fidelity Levels
+Low Fidelity
+Sketch
+Wireframe
+High Fidelity
+Functional system
+Key Goal:
+
+Can users complete tasks successfully?
+
+6. Special AI Prototyping Techniques
+1. Using Personal Data
+Users bring real data (photos, contacts, etc.)
+Simulate realistic outputs
+
+ More accurate than fake data
+
+2. Wizard of Oz Method (VERY IMPORTANT)
+
+Users think:
+ They are interacting with AI
+
+Reality:
+ A human is behind the system
+
+Why It’s Powerful
+No need to build AI
+Tests real interaction
+Reveals user expectations
+3. Minimum Viable Product (MVP)
+
+A simple working version used to:
+
+Test assumptions
+Learn quickly
+
+ Important:
+MVP is NOT the final product
+
+7. Testing Methods for Prototypes
+Task Completion
+Can users finish tasks?
+Measure time and success
+Fly-on-the-Wall
+Observe users silently
+Identify confusion and errors
+8. Explainability in AI Prototyping
+
+AI must explain:
+
+Why it made a decision
+Goal:
+Increase trust
+Improve decision-making
+How to Test Explainability
+Internal Testing
+Team evaluates clarity
+User Testing
+Interviews
+Surveys
+Task-based testing
+
+ Key insight:
+Good explanations improve trust
+
+9. Relevance Testing
+
+Check:
+
+Are AI outputs useful?
+Methods:
+Show results to users
+Collect feedback
+Compare expectations
+
+ Important:
+Even accurate AI can feel useless if not relevant
+
+10. Hardware Prototyping (Microcontrollers)
+
+This connects to your assignment (VERY IMPORTANT):
+
+Examples:
+
+Arduino
+Raspberry Pi
+Smart devices
+Challenge:
+Hardware is expensive and slow
+Solution:
+Simulate in 3D (Unity, AR)
+Then build physical prototype
+11. Key Connections to Week 1 & 2
+Week 1
+AI = rational agents
+HCI = usability
+
+ Prototyping tests both
+
+Week 2
+Design Thinking → Prototype + Test stages
+UCD/HCD → user feedback
+AI systems → need trust and explainability
+
+ Chapter 8 = real-world application of Design Thinking
